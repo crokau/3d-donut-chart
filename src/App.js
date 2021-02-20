@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TradeFederationDonutChart from './components/tradeFederationChart'
 
@@ -6,8 +5,8 @@ function App() {
 
 
   let data1=[
-    {label:"OM", value: 42000000, color:"rgb(190, 76, 153)"},
-    {label:"OM", value: 10000000, color:"rgb(235, 29, 108)"},
+    {label:"Sales", value: 42000000, color:"rgb(190, 76, 153)"},
+    {label:"Quotes", value: 10000000, color:"rgb(235, 29, 108)"},
   ];
 
   let data2=[
