@@ -4,12 +4,13 @@
 
 ## Usage
 
-<TradeFederationDonutChart width="300" id="ss0990ds" theme={'dark'} data={data1}/>
+###  `let data1=[`
+###     `{label:"Sales", value: 42000000, color:"rgb(190, 76, 153)"},`
+###     `{label:"Quotes", value: 10000000, color:"rgb(235, 29, 108)"},`
+###  `];`
 
-let data1=[
-    {label:"Sales", value: 42000000, color:"rgb(190, 76, 153)"},
-    {label:"Quotes", value: 10000000, color:"rgb(235, 29, 108)"},
- ];
+### `<TradeFederationDonutChart width="300" id="ss0990ds" theme={'dark'} data={data1}/>`
+
 
 ## Available Scripts
 
