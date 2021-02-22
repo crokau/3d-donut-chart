@@ -181,8 +181,9 @@ class TradeFederationDonutChart extends React.Component {
                 
         }	
         
-        const id = 'donut-' + Date.now()
-        var svg = d3.select("#" + this.props.id).append("svg").style("min-width", width/1.22).attr("height", width/1.3);
+        const id = 'donut-chart-' + this.props.id
+        d3.select(`${"#" + id}`).remove();
+        var svg = d3.select("#" + this.props.id).append("svg").style("min-width", width/1.22).attr("height", width/1.3).attr("id", id);
         var g = svg.append("g").attr("id",id);
         let y = document.querySelector('#' + id).getBoundingClientRect().top;
         let x = document.querySelector('#' + id).getBoundingClientRect().left;
